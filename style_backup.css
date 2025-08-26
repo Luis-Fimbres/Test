@@ -3,7 +3,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     
-    background-image: url(background_main.png);
+    background-image: url(src/background_main.png);
     background-repeat: repeat;
     background-size: 75px;
 

@@ -3,7 +3,7 @@ body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     
-    background-image: url(background_main.png);
+    background-image: url(src/background_main.png);
     background-repeat: repeat;
     background-size: 75px;
 
@@ -146,11 +146,11 @@ ul{
 }
 @font-face {
     font-family: 'Pixel_Art';
-    src: url('../medodica.regular.otf');
+    src: url(medodica.regular.otf);
 }
 @font-face{
     font-family: 'Warioware';
-    src: url('../warioware-inc.otf');
+    src: url(warioware-inc.otf);
 }
 
 /*Bottom header END -------------------------------------------------------------*/
