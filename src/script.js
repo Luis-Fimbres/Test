@@ -1,6 +1,6 @@
 const previousPageLink = document.referrer;
 const currentPage = window.location.href;
-if (currentPage.includes("index.html")){
+if (!currentPage.includes("about.html") || !currentPage.includes("main.html")){
     if (previousPageLink.includes("index.html") || previousPageLink.includes("about.html") || previousPageLink.includes("main.html")){
         document.getElementById('welcome_window').style.display = "none";
         document.getElementById('window_shadow').style.display = "none";
